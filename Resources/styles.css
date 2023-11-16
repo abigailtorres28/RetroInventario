@@ -1,0 +1,179 @@
+/* Estilos globales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  padding: 20px;
+  background-color: #000000;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+aside a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Formularios */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form select,
+form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form button {
+  padding: 15px 30px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* Tablas */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Botones */
+
+button {
+  padding: 15px 30px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Utilidades */
+
+.hidden {
+  display: none;
+}
+
+/* Página de inicio */
+
+#login-form {
+  margin: 0 auto;
+}
+
+#login-form a {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* Página de recuperar contraseña */
+
+#recover-password-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Página de empleados */
+
+#employees table {
+  margin-bottom: 20px;
+}
+
+/* Página de información de empleado */
+
+#employee-info p {
+  margin-bottom: 10px;
+}
+
+#employee-info span {
+  font-weight: bold;
+}
+
+#view-orders {
+  display: block;
+  margin-top: 20px;
+}
+
+/* Página de pedidos de empleado */
+
+#employee-orders h2 {
+  margin-bottom: 20px;
+}
+
+/* Página de camisas */
+
+#shirts div {
+  margin-bottom: 20px;
+}
+
+#shirts button {
+  margin-right: 10px;
+}
+
+/* Página de inventario */
+
+#inventory-shirts {
+  max-width: 600px;
+}
+
+/* Página de informes */
+
+#reports div {
+  margin-bottom: 20px;
+}
+
+#reports button {
+  margin-right: 10px;
+}

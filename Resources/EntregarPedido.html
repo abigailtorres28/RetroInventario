@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Entregar Pedido</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>RetroInventario</h1>
+        </header>
+
+        <main>
+
+            <aside>
+                <ul>
+                    <li><a href="#">Empleados</a></li>
+                    <li><a href="#">Camisas</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Informes</a></li>
+                </ul>
+            </aside>
+
+            <section id="deliver-order-form">
+
+                <h2>Entregar Pedido</h2>
+
+                <form>
+
+                    <label for="delivery-date">Fecha de Entrega:</label>
+                    <input type="date" id="delivery-date" name="delivery-date">
+
+                    <label for="damaged">N° de Dañadas:</label>
+                    <input type="number" id="damaged" name="damaged">
+
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" name="quantity" disabled>
+
+                    <label for="comment">Comentario:</label>
+                    <textarea id="comment" name="comment"></textarea>
+
+                    <button type="submit">Entregar</button>
+
+                </form>
+
+            </section>
+
+        </main>
+
+    </body>
+</html>

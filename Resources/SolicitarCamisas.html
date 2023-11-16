@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solicitar Camisas</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>RetroInventario</h1>
+        </header>
+
+        <main>
+
+            <aside>
+                <ul>
+                    <li><a href="#">Empleados</a></li>
+                    <li><a href="#">Camisas</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Informes</a></li>
+                </ul>
+            </aside>
+
+            <section id="request-shirts-form">
+
+                <h2>Solicitar Camisas</h2>
+
+                <form>
+
+                    <label for="size">Talla:</label>
+                    <input type="text" id="size" name="size">
+
+                    <label for="color">Color:</label>
+                    <input type="text" id="color" name="color">
+
+                    <label for="stamp">Tipo de Estampado:</label>
+                    <select id="stamp" name="stamp">
+                        <option value="sublimado">Sublimado</option>
+                        <option value="led">LED</option>
+                        <option value="tejido">Tejido</option>
+                    </select>
+
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" name="quantity">
+
+                    <label for="comment">Comentario:</label>
+                    <textarea id="comment" name="comment"></textarea>
+
+                    <button type="submit">Solicitar</button>
+
+                </form>
+
+            </section>
+
+        </main>
+
+    </body>
+</html>
